@@ -1,0 +1,18 @@
+-- create
+CREATE TABLE IF NOT EXISTS WORKERS (
+  worker_id INTEGER PRIMARY KEY,
+  Name TEXT NOT NULL,
+  Phone TEXT,
+  Salary TEXT NOT NULL
+);
+
+INSERT INTO WORKERS (worker_id, NAME, Phone, Salary) VALUES
+ (0001, 'Ramesh', '9855498465', '25000'),
+ (0002, 'Suresh', '98565498465', '75000'),
+ (0003, 'Rajesh', '9855497865', '28000'),
+ (0004, 'Shyamu', '9853698465', '35000'),
+ (0005, 'Ramu', '9855498235', '96000'),
+ (0006, 'Mahesh', '9851678465','25000'),
+ (0007, 'Chaman', '9856723465','215000');
+
+SELECT * FROM WORKERS ;
