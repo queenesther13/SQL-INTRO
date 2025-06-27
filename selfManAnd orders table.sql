@@ -16,10 +16,10 @@ CREATE TABLE IF NOT EXISTS Orders (
 order_no TEXT PRIMARY KEY,
 purch_amt REAL,
 ord_date TEXT,
-customer_td TEXT,
+customer_id TEXT,
 Salesman_td TEXT
 );
-INSERT INTO Orders (order_no, purch_amt, ord_date, customer_td, Salesman_td) VALUES
+INSERT INTO Orders (order_no, purch_amt, ord_date, customer_id, Salesman_td) VALUES
 ('70001', 158.5, '2012-10-85', '3005', '5882'),
 ('70009', 270.65, '2012-09-85', '3001', '5881'),
 ('70002', 65.26, '2012-10-85', '3002', '5883'),
